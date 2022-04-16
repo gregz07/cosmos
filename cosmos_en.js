@@ -20,7 +20,17 @@ var cosmos_en = {
 			}
 		},
 		"eyepieces": {
-			"title": "Eyepieces"
+			"title": "Eyepieces",
+			"eyepiece_1": {
+				"model": "TeleVue Nagler 7mm Type 6",
+				"field_of_vision": "Apparent field of view: 82°",
+				"connection": "Connector: 1,25\""
+			},
+			"eyepiece_2": {
+				"model": "Baader Morpheus 76° 12.5mm",
+				"field_of_vision": "Apparent field of view: 76°",
+				"connection": "Connector: 2\""
+			}
 		},
 		"books": {
 			"title": "Books",

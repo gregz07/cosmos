@@ -20,7 +20,17 @@ var cosmos_pt = {
 			}
 		},
 		"eyepieces": {
-			"title": "Oculares"
+			"title": "Oculares",
+			"eyepiece_1": {
+				"model": "TeleVue Nagler 7mm Type 6",
+				"field_of_vision": "Campo de visão próprio: 82°",
+				"connection": "Conexão: 1,25\""
+			},
+			"eyepiece_2": {
+				"model": "Baader Ocular Morpheus 76° 12.5mm",
+				"field_of_vision": "Campo de visão próprio: 76°",
+				"connection": "Conexão: 2\""
+			}
 		},
 		"books": {
 			"title": "Livros",
