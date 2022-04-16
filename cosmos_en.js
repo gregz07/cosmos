@@ -40,7 +40,7 @@ var cosmos_en = {
 			},
 			"book2": {
 				"title": "Guy Consolmagno and Dan M. Davis. (1989). <b> <i> Turn Left at Orion</i></b>. Cambridge, New York: Cambridge University Press.",
-				"description": "The most recommended book for beginners and with good reason. Divided by seasons, it has several night sky objects where the reader can start astronomical observations, as well as detailed examples on how to find said objects with the <i>finderscope</i>. It has interesting chapters on the planets and the Moon, and details on how to observe them. On each page of a new observation, there is always additional information about their types (eg, open clusters, globular clusters). It is truly a <i>must-have</i> in an inexperienced observer's arsenal, and an excellent book overall. It complements well with the <i>Sky Tour</i> to get the reader started in astronomical observations with the telescope."
+				"description": "The most recommended book for beginners and with good reason. Divided by seasons, it has several night sky objects where the reader can start astronomical observations, as well as detailed examples on how to find said objects with the <i>finderscope</i>. It has interesting chapters on the planets and the Moon, and details on how to observe them. On each page of a new observation, there is always additional information about their types (eg, open clusters, globular clusters). It is truly a <i>must-have</i> in an inexperienced observer's arsenal, and an excellent book overall. It complements well with the <i>Roteiro do céu</i> to get the reader started in astronomical observations with the telescope."
 			}
 		}
 	}
