@@ -1,0 +1,34 @@
+body {
+	font-family:	'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+div#index {
+	counter-reset: section;
+} 
+
+div#index h1 {
+	/* Set "subsection" to 0 */
+ counter-reset: subsection;
+} 
+
+div#index h1::before {
+ /* Increment "section" by 1 */
+ counter-increment: section;
+ content: counter(section) ". ";
+} 
+
+div#index h2::before {
+ /* Increment "subsection" by 1 */
+ counter-increment: subsection;
+ content: counter(section) "." counter(subsection) " ";
+}
+
+div#books .book_desc {
+	padding: 10px;
+	text-align: justify;
+}
+
+.content {
+	margin: 0;
+	padding: 1em;
+}

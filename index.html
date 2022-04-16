@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Cosmos</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="cosmos.css">
+	</head>
+	<script type="text/javascript" src="cosmos_pt.js"></script>
+	<script type="text/javascript" src="cosmos_en.js"></script>
+	<script type="text/javascript" src="./cosmos.js"></script>
+	<body>
+		<div style="float: right;">
+			<select id="languages" name="languages" onchange="changeLang(this)">
+				<option value="en">English</option>
+				<option value="pt" selected>Português</option>
+			</select>
+		</div>
+
+		<div id="index">
+			<h1> {{index.gear_index}} </h1>
+			<h2> {{index.telescope_index}} </h2>
+			<h2> {{index.eyepieces_index}} </h2>
+			<h2> {{index.books_index}} </h2>
+			<h2> {{index.other_index}} </h2>
+			<h1> {{index.cosmonaut_journal_index}}</h1>
+			<h2> {{index.cosmonaut_journal_index_2022}} </h2>
+		</div>
+
+		<div class="content">
+			<div id="gear">
+				<div id="telescope">
+					<h2> {{gear.telescope.title}} </h2>
+					<ul> 
+						{{gear.telescope.model}}
+						<li>{{gear.telescope.options.type}}</li>
+						<li>{{gear.telescope.options.aperture}}</li>
+						<li>{{gear.telescope.options.focal_distance}}</li>
+						<li>{{gear.telescope.options.f_ratio}}</li>
+					</ul>
+				</div>
+				<div id="eyepieces">
+					<h2> {{gear.eyepieces.title}} </h2>
+				</div>
+				<div id="books">
+					<h2> {{gear.books.title}} </h2>
+					<p> {{gear.books.book1.title}} </p>
+					<p class="book_desc"> 
+						{{gear.books.book1.description}}
+					</p>
+					<p> {{gear.books.book2.title}} </p>
+					<p class="book_desc"> 
+						{{gear.books.book2.description}}
+					</p>
+				</div>
+			</div>
+		</div>
+	
+	</body>
+</html>
