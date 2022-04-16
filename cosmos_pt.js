@@ -35,12 +35,30 @@ var cosmos_pt = {
 		"books": {
 			"title": "Livros",
 			"book1": {
-				"title": "Guilherme de Almeida. (2005). <b><i>Roteiro do céu</i></b>. Lisboa, Portugal: Plátano Editora.",
+				"title": "Guilherme de Almeida. (1996). <b><i>Roteiro do céu</i></b>. Lisboa, Portugal: Plátano Editora.",
 				"description": "Antes mesmo de comprar um telescópio, já tinha este livro, é fantástico para quem quer começar a orientar-se no céu nocturno. É magnífico para aprender as constelações, visto que vem com imensos mapas e cartas celestes para o leitor utilizar nas suas observações. Tem um capítulo inteiro dedicado às estrelas, aos vários tipos que existem e todas as suas diferentes características. É realmente um <b>Roteiro</b> no verdadeiro sentido da palavra. É uma leitura que nos faz apaixonar pelo céu nocturno."
 			},
 			"book2": {
-				"title": "Guy Consolmagno and Dan M. Davis. (1989). <b> <i> Turn Left at Orion</i></b>. Cambridge, New York: Cambridge University Press.",
+				"title": "Guy Consolmagno e Dan M. Davis. (1989). <b> <i> Turn Left at Orion</i></b>. Cambridge, New York: Cambridge University Press.",
 				"description": "O livro mais recomendado para iniciantes e com razão. Dividido por estações do ano, dispõe de vários objectos do céu nocturno onde o leitor pode iniciar as suas observações astronómicas, bem como exemplos detalhados em como encontrar os ditos objectos com a <i>finderscope</i>. Tem capítulos interessantes sobre os planetas e a Lua, e detalhes em como os observar. Em cada página de uma nova observação, tem sempre informação adicional sobre o tipos dos mesmos (ex: Enxames abertos, Enxames globulares). É realmente um <i>must-have</i> no arsenal de um observador inexperiente, e um excelente livro no geral. Complementa-se bem com o <i>Roteiro do céu</i> para iniciar o leitor nas observações astronómicas com o telescópio."
+			},
+			"book3": {
+				"title": "Guilherme de Almeia e Pedro Ré. (2000). <b><i>Observar o céu profundo</i></b>. Lisboa, Portugal: Plátano Editora.",
+				"description": "Excelente sequela ao <i>Roteiro do céu</i>, mas de um teor mais técnico. Este livro trata de iniciar o leitor às observações astronómicas com um telescópio. Dispõe de conselhos práticos e de técnicas de observação de galáxias, nebulosas e enxames de estrelas. É um autêntico Atlas do céu profundo com a sua míriade de imagens e informação preciosa."
+			}
+		}
+	},
+	"cosmonaut_journal": {
+		"2022": {
+			"07_03": {
+				"location": "<img src=\"assets/icons8-location-30.png\"\> Monte do Caneiro (38.3405974,-7.4087618)",
+				"time": "Hora local: 23h00m GMT",
+				"object": "Objecto Messier: M 93",
+				"constelation": "<img src=\"assets/icons8-constellation-30.png\"\> Constelação: <i>Puppis</i> (Popa)",
+				"magnitude": "<img src=\"assets/icons8-pixel-star-30.png\"\> 6,2",
+				"distance": "<img src=\"assets/icons8-rule-30.png\"\> 4000 anos-luz",
+				"notes": "Enxame aberto muito rico em que inunda o campo de visão com numerosas estrelas. Visto com a 12.5mm, talvez fosse uma observação melhor se tivesse utilizado uma ocular com menos ampliação, talvez uma 24mm",
+				"bibliographic_references": "Referências bibliográficas: <i>Turn Left at Orion</i> page 87; <i>Observar o céu profundo</i>"
 			}
 		}
 	}

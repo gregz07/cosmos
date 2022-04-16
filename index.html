@@ -20,16 +20,30 @@
 		</div>
 
 		<div id="index">
+			<h1> {{index.cosmonaut_journal_index}}</h1>
+			<h2> {{index.cosmonaut_journal_index_2022}} </h2>
 			<h1> {{index.gear_index}} </h1>
 			<h2> {{index.telescope_index}} </h2>
 			<h2> {{index.eyepieces_index}} </h2>
 			<h2> {{index.books_index}} </h2>
 			<h2> {{index.other_index}} </h2>
-			<h1> {{index.cosmonaut_journal_index}}</h1>
-			<h2> {{index.cosmonaut_journal_index_2022}} </h2>
 		</div>
 
 		<div class="content">
+			<div id="cosmonaut_journal">
+				<div id="cosmonaut_journal_2022">
+					<div>
+						<p> {{cosmonaut_journal.2022.07_03.location}} </p>
+						<p> {{cosmonaut_journal.2022.07_03.time}} </p>
+						<p> {{cosmonaut_journal.2022.07_03.object}} </p>
+						<p> {{cosmonaut_journal.2022.07_03.constellation}} </p>
+						<p> {{cosmonaut_journal.2022.07_03.magnitude}} </p>
+						<p> {{cosmonaut_journal.2022.07_03.distance}} </p>
+						<p> {{cosmonaut_journal.2022.07_03.notes}} </p>
+						<p> {{cosmonaut_journal.2022.07_03.bibliographic_references}} </p>
+					</div>
+				</div>
+			</div>
 			<div id="gear">
 				<div id="telescope">
 					<h2> {{gear.telescope.title}} </h2>
@@ -63,6 +77,11 @@
 					<p> {{gear.books.book2.title}} </p>
 					<p class="book_desc"> 
 						{{gear.books.book2.description}}
+					</p>
+					</p>
+					<p> {{gear.books.book3.title}} </p>
+					<p class="book_desc"> 
+						{{gear.books.book3.description}}
 					</p>
 				</div>
 			</div>
